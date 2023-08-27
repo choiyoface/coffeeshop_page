@@ -1,1 +1,1 @@
-alert("hi");
+(()=>{"use strict";(()=>{const e=document.querySelector("#content"),t=document.createElement("div");t.classList.add("contentDiv");const n=document.createElement("h1");n.textContent="Welcome to Sunny Coffee",t.appendChild(n);const c=document.createElement("img");c.src="https://perfectdailygrind.com/es/wp-content/uploads/sites/2/2019/03/coffee-bar.jpg",c.height="300",t.appendChild(c),e.appendChild(t)})()})();

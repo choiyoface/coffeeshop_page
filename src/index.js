@@ -1,1 +1,4 @@
-alert('hi')
+
+import pageLoad from './pageLoad'
+
+pageLoad();
