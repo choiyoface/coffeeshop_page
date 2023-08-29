@@ -1,6 +1,9 @@
-import createHomePage from "./homepage";
+
+import createContactPage from "./contactpage";
+import createMenuPage from "./menupage";
 
 function pageLoad(){
-    createHomePage()
+    createContactPage();
+    
 }
 export default pageLoad;
