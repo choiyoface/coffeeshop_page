@@ -1,9 +1,11 @@
 
-import createContactPage from "./contactpage";
-import createMenuPage from "./menupage";
+
+import createHomePage from "./homepage";
+import createTabs from "./tabs";
 
 function pageLoad(){
-    createContactPage();
+    createTabs();
+    createHomePage();
     
 }
 export default pageLoad;

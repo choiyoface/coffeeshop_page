@@ -4,7 +4,8 @@ const createMenuPage = () => {
 
     const content = document.querySelector('#content');
     const menuDiv = document.createElement('div');
-    menuDiv.classList.add('menuDiv');
+    menuDiv.classList.add('page-content');
+    menuDiv.setAttribute('id', 'menuDiv');
     
     //make coffee menu
     const coffeeDiv = document.createElement('div');

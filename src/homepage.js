@@ -3,7 +3,8 @@
 const createHomePage = () => {
     const content = document.querySelector('#content');
     const contentDiv = document.createElement('div');
-    contentDiv.classList.add('contentDiv');
+    contentDiv.classList.add('page-content');
+    contentDiv.setAttribute('id','contentDiv');
 
     //add a head Title
     const headTitle = document.createElement('h1');

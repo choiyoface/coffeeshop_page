@@ -3,7 +3,8 @@
 const createContactPage = () => {
     const content = document.querySelector('#content');
     const contactDiv = document.createElement('div');
-    contactDiv.classList.add('contactDiv');
+    contactDiv.classList.add('page-content');
+    contactDiv.setAttribute('id','contactDiv')
 
     //contact information
     const infoDiv = document.createElement('div');
