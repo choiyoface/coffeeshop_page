@@ -1,7 +1,6 @@
-
-
 import createHomePage from "./homepage";
 import createTabs from "./tabs";
+
 
 function pageLoad(){
     createTabs();

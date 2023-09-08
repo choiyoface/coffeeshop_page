@@ -17,6 +17,10 @@ const createHomePage = () => {
     mainImage.height = "300";
     contentDiv.appendChild(mainImage);
 
+    //div for background img
+    const backgroundImg = document.createElement('div');
+    backgroundImg.classList.add('backgroundImg');
+    contentDiv.appendChild(backgroundImg);
 
 
     content.appendChild(contentDiv);
